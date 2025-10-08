@@ -1,0 +1,161 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background: #1f1f1f;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 20px;
+  position: fixed;
+  width: 100%;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 100px 20px;
+  
+}
+
+.menu a:hover {
+  background: #303030;
+  color: white;
+  text-decoration: none;
+  padding: 13px 13px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.inicio {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 100%;
+}
+
+.inicio img{
+  width: 300px;
+  height: 300px;
+}
+
+.inicio h1{
+  padding: 20px;
+}
+
+.inicio h2{
+  padding: 10px;
+}
+
+.inicio h3{
+  padding: 5px;
+}
+
+.inicio p{
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.botao{
+  background: #2a2a2a;
+  padding: 20px;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  margin: 30px;
+  text-decoration: none;
+}
+
+.botao:hover{
+  background: #4d4d4d;
+}
+
+.projetos {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 100%;
+}
+
+.sobre {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.projetos{
+  background-color: #ededed;
+}
+
+.card{
+  width: 25%;
+  display: inline-block;
+  background: white;
+  height: 190px;
+  padding-top: 60px;
+  margin-top: 30px;
+  margin-left: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px #cbcbcb;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card h2{
+  padding-bottom: 20px;
+}
+
+.card p{
+  padding-bottom: 30px
+}
+
+.card a{
+  background: #2a2a2a;
+  padding: 20px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none
+}
+
+.card a:hover{
+  background: #5a5a5a;
+}
+
+.contato {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 100%;
+}
+
+.formulario{
+  align-items: center;
+  display: block;
+  margin-top: 30px;
+}
+
+.formulario input{
+  width: 20%;
+  height: 30px;
+  margin: 10px;
+}
+
+.links{
+  margin-top: 20px;
+}
+
+.links a{
+  text-decoration: none;
+  margin-top: 20px;
+  padding: 10px;
+  color: #1f1f1f;
+
+}
+
+.links p{
+ padding-bottom: 10px;
+}
